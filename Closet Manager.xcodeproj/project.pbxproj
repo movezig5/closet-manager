@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9496E911C9757FA001296FB /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9496E901C9757FA001296FB /* NewItemViewController.swift */; };
+		F97825181C98739E006FE93A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97825171C98739E006FE93A /* EditViewController.swift */; };
+		F97981A81C961D380056992E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97981A71C961D380056992E /* AppDelegate.swift */; };
+		F97981AA1C961D380056992E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97981A91C961D380056992E /* ViewController.swift */; };
+		F97981AD1C961D380056992E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97981AB1C961D380056992E /* Main.storyboard */; };
+		F97981AF1C961D380056992E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97981AE1C961D380056992E /* Assets.xcassets */; };
+		F97981B21C961D380056992E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97981B01C961D380056992E /* LaunchScreen.storyboard */; };
+		F97981BD1C961D380056992E /* Closet_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97981BC1C961D380056992E /* Closet_ManagerTests.swift */; };
+		F97981C81C961D380056992E /* Closet_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97981C71C961D380056992E /* Closet_ManagerUITests.swift */; };
+		F97981DE1C9620980056992E /* ClothingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97981DD1C9620980056992E /* ClothingTableViewController.swift */; };
+		F97981E01C96214D0056992E /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97981DF1C96214D0056992E /* ClothingItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F97981B91C961D380056992E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F979819C1C961D380056992E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97981A31C961D380056992E;
+			remoteInfo = "Closet Manager";
+		};
+		F97981C41C961D380056992E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F979819C1C961D380056992E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97981A31C961D380056992E;
+			remoteInfo = "Closet Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9496E901C9757FA001296FB /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		F97825171C98739E006FE93A /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		F97981A41C961D380056992E /* Closet Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Closet Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97981A71C961D380056992E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F97981A91C961D380056992E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F97981AC1C961D380056992E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F97981AE1C961D380056992E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F97981B11C961D380056992E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F97981B31C961D380056992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97981B81C961D380056992E /* Closet ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Closet ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97981BC1C961D380056992E /* Closet_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closet_ManagerTests.swift; sourceTree = "<group>"; };
+		F97981BE1C961D380056992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97981C31C961D380056992E /* Closet ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Closet ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97981C71C961D380056992E /* Closet_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closet_ManagerUITests.swift; sourceTree = "<group>"; };
+		F97981C91C961D380056992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97981DD1C9620980056992E /* ClothingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothingTableViewController.swift; sourceTree = "<group>"; };
+		F97981DF1C96214D0056992E /* ClothingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F97981A11C961D380056992E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97981B51C961D380056992E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97981C01C961D380056992E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F979819B1C961D380056992E = {
+			isa = PBXGroup;
+			children = (
+				F97981A61C961D380056992E /* Closet Manager */,
+				F97981BB1C961D380056992E /* Closet ManagerTests */,
+				F97981C61C961D380056992E /* Closet ManagerUITests */,
+				F97981A51C961D380056992E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F97981A51C961D380056992E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97981A41C961D380056992E /* Closet Manager.app */,
+				F97981B81C961D380056992E /* Closet ManagerTests.xctest */,
+				F97981C31C961D380056992E /* Closet ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F97981A61C961D380056992E /* Closet Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F97981A71C961D380056992E /* AppDelegate.swift */,
+				F97981A91C961D380056992E /* ViewController.swift */,
+				F97981AB1C961D380056992E /* Main.storyboard */,
+				F97981AE1C961D380056992E /* Assets.xcassets */,
+				F97981B01C961D380056992E /* LaunchScreen.storyboard */,
+				F97981B31C961D380056992E /* Info.plist */,
+				F97981DD1C9620980056992E /* ClothingTableViewController.swift */,
+				F97981DF1C96214D0056992E /* ClothingItem.swift */,
+				F9496E901C9757FA001296FB /* NewItemViewController.swift */,
+				F97825171C98739E006FE93A /* EditViewController.swift */,
+			);
+			path = "Closet Manager";
+			sourceTree = "<group>";
+		};
+		F97981BB1C961D380056992E /* Closet ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F97981BC1C961D380056992E /* Closet_ManagerTests.swift */,
+				F97981BE1C961D380056992E /* Info.plist */,
+			);
+			path = "Closet ManagerTests";
+			sourceTree = "<group>";
+		};
+		F97981C61C961D380056992E /* Closet ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F97981C71C961D380056992E /* Closet_ManagerUITests.swift */,
+				F97981C91C961D380056992E /* Info.plist */,
+			);
+			path = "Closet ManagerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F97981A31C961D380056992E /* Closet Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97981CC1C961D380056992E /* Build configuration list for PBXNativeTarget "Closet Manager" */;
+			buildPhases = (
+				F97981A01C961D380056992E /* Sources */,
+				F97981A11C961D380056992E /* Frameworks */,
+				F97981A21C961D380056992E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Closet Manager";
+			productName = "Closet Manager";
+			productReference = F97981A41C961D380056992E /* Closet Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F97981B71C961D380056992E /* Closet ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97981CF1C961D380056992E /* Build configuration list for PBXNativeTarget "Closet ManagerTests" */;
+			buildPhases = (
+				F97981B41C961D380056992E /* Sources */,
+				F97981B51C961D380056992E /* Frameworks */,
+				F97981B61C961D380056992E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97981BA1C961D380056992E /* PBXTargetDependency */,
+			);
+			name = "Closet ManagerTests";
+			productName = "Closet ManagerTests";
+			productReference = F97981B81C961D380056992E /* Closet ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F97981C21C961D380056992E /* Closet ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97981D21C961D380056992E /* Build configuration list for PBXNativeTarget "Closet ManagerUITests" */;
+			buildPhases = (
+				F97981BF1C961D380056992E /* Sources */,
+				F97981C01C961D380056992E /* Frameworks */,
+				F97981C11C961D380056992E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97981C51C961D380056992E /* PBXTargetDependency */,
+			);
+			name = "Closet ManagerUITests";
+			productName = "Closet ManagerUITests";
+			productReference = F97981C31C961D380056992E /* Closet ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F979819C1C961D380056992E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CSC471;
+				TargetAttributes = {
+					F97981A31C961D380056992E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MQ79U7S5FQ;
+					};
+					F97981B71C961D380056992E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F97981A31C961D380056992E;
+					};
+					F97981C21C961D380056992E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F97981A31C961D380056992E;
+					};
+				};
+			};
+			buildConfigurationList = F979819F1C961D380056992E /* Build configuration list for PBXProject "Closet Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F979819B1C961D380056992E;
+			productRefGroup = F97981A51C961D380056992E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97981A31C961D380056992E /* Closet Manager */,
+				F97981B71C961D380056992E /* Closet ManagerTests */,
+				F97981C21C961D380056992E /* Closet ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F97981A21C961D380056992E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97981B21C961D380056992E /* LaunchScreen.storyboard in Resources */,
+				F97981AF1C961D380056992E /* Assets.xcassets in Resources */,
+				F97981AD1C961D380056992E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97981B61C961D380056992E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97981C11C961D380056992E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F97981A01C961D380056992E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97981E01C96214D0056992E /* ClothingItem.swift in Sources */,
+				F97981DE1C9620980056992E /* ClothingTableViewController.swift in Sources */,
+				F97825181C98739E006FE93A /* EditViewController.swift in Sources */,
+				F9496E911C9757FA001296FB /* NewItemViewController.swift in Sources */,
+				F97981AA1C961D380056992E /* ViewController.swift in Sources */,
+				F97981A81C961D380056992E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97981B41C961D380056992E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97981BD1C961D380056992E /* Closet_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97981BF1C961D380056992E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97981C81C961D380056992E /* Closet_ManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F97981BA1C961D380056992E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F97981A31C961D380056992E /* Closet Manager */;
+			targetProxy = F97981B91C961D380056992E /* PBXContainerItemProxy */;
+		};
+		F97981C51C961D380056992E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F97981A31C961D380056992E /* Closet Manager */;
+			targetProxy = F97981C41C961D380056992E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F97981AB1C961D380056992E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97981AC1C961D380056992E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F97981B01C961D380056992E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97981B11C961D380056992E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F97981CA1C961D380056992E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F97981CB1C961D380056992E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F97981CD1C961D380056992E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Closet Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.Closet-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F97981CE1C961D380056992E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Closet Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.Closet-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F97981D01C961D380056992E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Closet ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.Closet-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Closet Manager.app/Closet Manager";
+			};
+			name = Debug;
+		};
+		F97981D11C961D380056992E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Closet ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.Closet-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Closet Manager.app/Closet Manager";
+			};
+			name = Release;
+		};
+		F97981D31C961D380056992E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Closet ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.Closet-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Closet Manager";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F97981D41C961D380056992E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Closet ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.Closet-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Closet Manager";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F979819F1C961D380056992E /* Build configuration list for PBXProject "Closet Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97981CA1C961D380056992E /* Debug */,
+				F97981CB1C961D380056992E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97981CC1C961D380056992E /* Build configuration list for PBXNativeTarget "Closet Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97981CD1C961D380056992E /* Debug */,
+				F97981CE1C961D380056992E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97981CF1C961D380056992E /* Build configuration list for PBXNativeTarget "Closet ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97981D01C961D380056992E /* Debug */,
+				F97981D11C961D380056992E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97981D21C961D380056992E /* Build configuration list for PBXNativeTarget "Closet ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97981D31C961D380056992E /* Debug */,
+				F97981D41C961D380056992E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F979819C1C961D380056992E /* Project object */;
+}
